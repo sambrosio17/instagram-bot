@@ -105,12 +105,15 @@ Other features will be developed in the future.
 
 # About the author
 
-<div style="display:flex; align-items:center">
-<img src="https://avatars.githubusercontent.com/u/50336980?v=4" style="border-radius:50%; width:200px; margin-right:10px">
-<blockquote style="width:100%;padding:10px; height:fit-content; text-align:justify;">Hi, this is Salvatore. I'm 21 years old. I'm an italian 🇮🇹 Computer Science 💻 student but I also love watching movies🎥, traveling🛫 and listening to music🎵. I code in C, Java and also Javascript. I know how to work with databases and how to develop an android app. And so many other things but i'm lazy and I'm tired of writing this some sort of Bio. </blockquote>
-</div>
+
+<img src="https://avatars.githubusercontent.com/u/50336980?v=4">
+
 <br>
-<h2>Let's keep in touch! Follow me<h2>
+
+>Hi, this is Salvatore. I'm 21 years old. I'm an italian 🇮🇹 Computer Science 💻 student but I also love watching movies🎥, traveling🛫 and listening to music🎵. I code in C, Java and also Javascript. I know how to work with databases and how to develop an android app. And so many other things but i'm lazy and I'm tired of writing this some sort of Bio. </blockquote>
+
+<br>
+
 
 
 
