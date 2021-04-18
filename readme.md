@@ -28,27 +28,27 @@ npm install puppteer
 
 You need to set this file ```config.json``` properly before starting
 
-| Variable Name | Type | Meaning |
-|---------------|------|---------|
-|isNewAccount|```boolean```| Set this variable ``` true ``` if it's the first time logging with an account, set ```false``` otherwise.|
-|dirName| ```string``` |Set directory name in order to avoid log-in every time. In case is the first time logging with an account specify a newly created directory.
-|pageToGo| ```String[]```| Arrays of url destination from which retrive post to like/comment.|
-|isAccount|```boolean```| Set ```true``` if destinations passed are account, ```false``` otherwise. |
-|isPlace|```boolean```| Set ```true``` if destinations passed are places, ```false``` otherwise. |
-|isHashtag|```boolean```| Set ```true``` if destinations passed are hashtags, ```false``` otherwise. |
-|actionLike|```boolean```| Set ```true``` if the actiont to perform is Like, ```false``` otherwise. |
-|actionComment|```boolean```| Set ```true``` if the actiont to perform is Comment, ```false``` otherwise. |
-|delay|```number```| Set time between actions, need to be specified in ms. Suggested: >2000ms (2s). |
-|setLimit|```boolean```| Set ```true``` if you wanna perfom action for a limitated number of post, ```false``` otherwise. |
-|postCount|```number```| Need to be specified if ```setLimit``` is set ```true```.Set number of post on which perfom action. |
-|username|```string```| your instagram username.|
-|password|```string```| your instagram password.|
+| Variable Name | Type | Meaning | status |
+|---------------|------|---------|--------|
+|isNewAccount|```boolean```| Set this variable ``` true ``` if it's the first time logging with an account, set ```false``` otherwise.| |
+|dirName| ```string``` |Set directory name in order to avoid log-in every time. In case is the first time logging with an account specify a newly created directory. | |
+|pageToGo| ```String[]```| Arrays of url destination from which retrive post to like/comment.| |
+|isAccount|```boolean```| Set ```true``` if destinations passed are account, ```false``` otherwise. | deprecated |
+|isPlace|```boolean```| Set ```true``` if destinations passed are places, ```false``` otherwise. | deprecated |
+|isHashtag|```boolean```| Set ```true``` if destinations passed are hashtags, ```false``` otherwise. | deprecated |
+|actionLike|```boolean```| Set ```true``` if the actiont to perform is Like, ```false``` otherwise. | |
+|actionComment|```boolean```| Set ```true``` if the actiont to perform is Comment, ```false``` otherwise. | |
+|delay|```number```| Set time between actions, need to be specified in ms. Suggested: >2000ms (2s). | |
+|setLimit|```boolean```| Set ```true``` if you wanna perfom action for a limitated number of post, ```false``` otherwise. | |
+|postCount|```number```| Need to be specified if ```setLimit``` is set ```true```.Set number of post on which perfom action. | |
+|username|```string```| your instagram username.| |
+|password|```string```| your instagram password.||
 
 <br />
 
 ## Example
 
-```
+```json
 {
     "isNewAccount":true,
     "dirName":"./newAccount",
@@ -64,8 +64,6 @@ You need to set this file ```config.json``` properly before starting
     "postCount":null,
     "username": "my_username",
     "password": "my_password"
-
-
 }
 
 ```
@@ -93,7 +91,7 @@ Other features will be developed in the future.
 
 | Current Version | Date |
 |---------------|--------|
-|```v1.0.0```|``` 18 04 21 ```|
+|```v1.0.1```|``` 18 04 21 ```|
 
 <br>
 
@@ -102,7 +100,7 @@ Other features will be developed in the future.
 | Current Version | Date | Update Log |
 |---------------|--------|-------------|
 |```v1.0.0```|``` 18 04 21 ```| First Version|
-
+|```v1.0.1```|``` 18 04 21 ```| There's no more need to specify type of destination in ```config.json```, remove some unused dependencies|
 # About the author
 
 

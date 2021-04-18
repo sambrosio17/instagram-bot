@@ -11,15 +11,12 @@ const fs=require('fs');
     const newAccount=config.isNewAccount;
     const dirName=config.dirName;
     const pageToGo=config.pageToGo;
-    const isAccount=config.isAccount;
     const actionLike=config.actionLike;
     const actionComment=config.actionComment;
     const delay=config.delay;
     const comment=config.comment;
     const username= config.username;
     const password=config.password;
-    const isPlace=config.isPlace;
-    const isHashtag=config.isHashtag;
     const postCount=config.postCount;
     const setLimit=config.setLimit;
 
@@ -47,7 +44,8 @@ const fs=require('fs');
     const selectorAccount="#react-root > section > main > div > div._2z6nI > article > div:nth-child(1) > div div div a"
     const selectorPlace="#react-root > section > main > article > div:nth-child(4) > div > div > div a "
     const selectorHashtag="#react-root > section > main > article > div:nth-child(3) > div > div > div a "
-    const selector= isAccount == true ? selectorAccount : isPlace== true ? selectorPlace : selectorHashtag;
+
+    let selector="";
 
     const doLike = async() => {
 
@@ -77,6 +75,8 @@ const fs=require('fs');
     var anchors= [];
 
     for(let i=0; i<pageToGo.length; i++){
+
+        selector=pageToGo[i].includes("tags") == true ? selectorHashtag : pageToGo[i].includes("locations") == true ? selectorPlace : selectorAccount;
         await page.goto(pageToGo[i])
         await page.waitForSelector(selector);
         let anch= await page.$$eval(selector, anchors=> [].map.call(anchors, a => a.href));
