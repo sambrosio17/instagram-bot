@@ -1,6 +1,6 @@
 # Instagram Bot
 
-# Indice
+# Index
 - [Summary](#summary)
 - [Dependencies](#dependencies)
 - [Configuration File](#configuration-file)
