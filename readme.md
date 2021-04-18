@@ -107,6 +107,19 @@ Other features will be developed in the future.
 
 <div style="display:flex; align-items:center">
 <img src="https://avatars.githubusercontent.com/u/50336980?v=4" style="border-radius:50%; width:200px; margin-right:10px">
-<blockquote style="width:100%;padding:10px; height:fit-content;">Hi, this is Salvatore. I'm 21 years old. I'm an italian Computer Science student </blockquote>
+<blockquote style="width:100%;padding:10px; height:fit-content; text-align:justify;">Hi, this is Salvatore. I'm 21 years old. I'm an italian 🇮🇹 Computer Science 💻 student but I also love watching movies🎥, traveling🛫 and listening to music🎵. I code in C, Java and also Javascript. I know how to work with databases and how to develop an android app. And so many other things but i'm lazy and I'm tired of writing this some sort of Bio. </blockquote>
 </div>
+<br>
+<h2>Let's keep in touch! Follow me<h2>
+
+
+
+[![Follow Me](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.it/salvatoreambrosio17)
+
+[![Follow Me](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.it/salvatoreambrosiocreator)
+
+[![Follow Me](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Salvato11674611)
+
+
+
 
