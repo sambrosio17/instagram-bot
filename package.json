@@ -1,0 +1,22 @@
+{
+  "name": "instagram-like-bot",
+  "version": "0.0.1",
+  "description": "Instagram automated like bot made with nodejs and puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": " node index.js"
+  },
+  "keywords": [
+    "instagram",
+    "bot",
+    "nodejs",
+    "puppeteer"
+  ],
+  "author": "sambrosio17",
+  "license": "ISC",
+  "dependencies": {
+    "atomic-sleep": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "puppeteer": "^8.0.0"
+  }
+}
