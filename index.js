@@ -78,7 +78,7 @@ const fs=require('fs');
         await page.goto(pageToGo[i])
         await page.waitForSelector(selector);
         let anch= await page.$$eval(selector, anchors=> [].map.call(anchors, a => a.href));
-        let sliced=setLimit == true ? anch.slice(0,postCount) : anch;
+        let sliced=(setLimit == true && anch.length>=postCount) ? anch.slice(0,postCount) : anch;
         anchors= anchors.concat(sliced);
     }
  
