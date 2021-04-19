@@ -22,7 +22,7 @@ To use this bot you need to install:
 - Puppeteer v8.0.0
 
 ```
-npm install puppteer
+npm install puppeteer
 ```
 # Configuration File
 
