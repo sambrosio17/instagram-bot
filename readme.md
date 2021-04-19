@@ -91,7 +91,7 @@ Other features will be developed in the future.
 
 | Current Version | Date |
 |---------------|--------|
-|```v1.0.1```|``` 18 04 21 ```|
+|```v1.0.2```|``` 19 04 21 ```|
 
 <br>
 
@@ -101,6 +101,7 @@ Other features will be developed in the future.
 |---------------|--------|-------------|
 |```v1.0.0```|``` 18 04 21 ```| First Version|
 |```v1.0.1```|``` 18 04 21 ```| There's no more need to specify type of destination in ```config.json```, remove some unused dependencies|
+|```v1.0.2```|``` 19 04 21 ```| Bug fix|
 # About the author
 
 
